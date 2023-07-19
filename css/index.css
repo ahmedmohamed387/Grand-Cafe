@@ -98,8 +98,13 @@ height: 400px !important;
         width: 250px !important;
         height: 190px !important;
     }
+    #carousel-inner-1 .carousel-item{
+        margin: 0;
+        padding: 0;
+        margin-left: 15px;
+    }
     #carouselExampleIndicators-1{
-        height: 300px ;
+        height: 200px ;
     }
     .contact-h1 h1{
         margin-top: 100px !important;
@@ -108,7 +113,7 @@ height: 400px !important;
         width: 70% !important;
     }
     .left p{
-        width: 300px;
+        width: 270px !important;
     }
 }
 /* end carusal */
@@ -123,10 +128,10 @@ height: 400px !important;
     height: auto;
 }
 .right{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .left{
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center !important;
 }
 .left button{
