@@ -107,6 +107,9 @@ height: 400px !important;
     #carouselExampleSlidesOnly p{
         width: 70% !important;
     }
+    .left p{
+        width: 300px;
+    }
 }
 /* end carusal */
 /* ================================================================================== */
@@ -443,5 +446,18 @@ height: 400px !important;
 .left{
     text-align:start !important;
 }
-
+@media (max-width : 750px){
+    .text p{
+        width: 250px;
+        text-align: start;
+        font-size: 14px;
+    }
+    .text h4{
+        font-size: 18px;
+    }
+    .imag-1 img{
+        width: 120px;
+        height: auto;
+       }
+}
 /* end menu */
